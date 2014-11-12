@@ -1,4 +1,5 @@
 source "https://rubygems.org"
 
-gem 'rulers'
+# By specifying :path, we no longer have to rebuild the gem every time it changes
+gem 'rulers', :path => "../rulers"
 gem 'pry'
